@@ -3,19 +3,16 @@
 	width: 100%;
 	height: auto;
 	padding: 8px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
 }
 .navbar-fb img {
-    width: 115;
+    width: 115px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.navbar-alert {
+.fb-alert {
 	background: #fa3e3e;
 	width: 100%;
 	height: auto;
@@ -24,7 +21,6 @@
 	font-size: 15px;
 	font-family: Roboto;
 	text-align: left;
-	display: none;
 }
 .content-box-fb {
     width: 300px;
@@ -34,12 +30,27 @@
     display: block;
 }
 .content-box-fb img {
-    width: 60;
+    width: 60px;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 12px;
     display: block;
+}
+.content-box-fb .kaget {
+    display: none;    
+    position: relative;
+    left:-10px;
+    width: 300px;
+    padding: 5px;
+    background: #FFECE8;
+    border: 2px solid #E76847;
+    color:#000;
+    font-size: 13px;
+    font-family: system-ui;
+    float:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 .txt-login-fb {
     width: 270px;
@@ -51,16 +62,15 @@
     padding: 8px;
     color: #90949c;
     font-size: 16px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: block;
-}
+}    
 .form-group-fb {
 	width: 100%;
 	height: auto;
 }
 .form-group-fb input {
-	background: #fff;
 	width: 100%;
 	height: auto;
 	padding: 12px;
@@ -81,14 +91,11 @@
 	border-bottom-left-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
-.form-group-fb input::placeholder {
-	color: #000 !important;
-}
 .form-group-fb .login-form-shid {
 	width: 70px;
 	height: auto;
-	margin-top: 1px;
 	margin-left: 68%;
+	margin-top: 0%;
 	padding: 11px;
 	color: #1778f2;
 	font-size: 14px;
@@ -105,14 +112,14 @@
 	background: #1778f2;
 	width: 100%;
 	height: auto;
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	padding: 10px;
 	color: #fff;
 	font-size: 14px;
-	font-family: Roboto;
+	font-family: Roboto, sans-serif;
 	font-weight: bold;
 	text-align: center;
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
@@ -128,7 +135,7 @@
     padding: 5px;
     color: #3b5998;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .txt-not-now {
@@ -137,7 +144,7 @@
     padding: 5px;
     color: #3b5998;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .txt-forgotten-password {
@@ -147,7 +154,7 @@
     padding: 5px;
     color: #7596c8;
     font-size: 13.5px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
 }
 .language-box {
@@ -164,7 +171,7 @@
     margin-bottom: 0px;
     color: #3b5998;
     font-size: 12px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: inline-block;
 }
@@ -187,7 +194,18 @@
     margin-right: auto;
     color: #90949c;
     font-size: 12px;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     text-align: center;
     display: block;
+}
+.form-group-sohid {
+	width: 45px;
+	height: auto;
+	margin-left: 78%;
+	position: absolute;
+	z-index: 9999999;	
+}
+.form-group-sohid img {
+	width: 22px;
+	margin-top: 10px;
 }
